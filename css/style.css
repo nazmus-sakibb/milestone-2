@@ -1,0 +1,148 @@
+/*===============================
+    1.0 - Header Area 
+=================================*/
+nav a {
+    color: #3C3C3C !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.header-area {
+    background-color: #FFFBF0;
+    padding-bottom: 120px;
+}
+
+.logo-area{
+    width: 270px;
+    height: auto;
+}
+
+.logo img {
+    display: inline-block;
+    width: 100%;
+}
+
+/* Header Info */
+.header-info h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 75px;
+    color: #363958;
+    margin-top: 0;
+}
+
+h1.text-highlight {
+    color: #FABE4C;
+    margin-bottom: 0;
+}
+
+.header-info p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3E3E3E;
+    margin-bottom: 20px;
+}
+
+.button {
+    background: linear-gradient(#A4BC45, #86A21B);
+    color: white;
+    border: 0;
+    padding: 14px 30px;
+    display: inline-block;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.button:hover {
+    color: white;
+    background: linear-gradient(#86A21B, #A4BC45);
+}
+
+.header-image {
+    margin-left: 100px;
+}
+
+
+/*===============================
+    2.0 - Woman Jacket Area 
+=================================*/
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 48px;
+    color: #363958;
+}
+
+.jacket-bg {
+    background-color: #F1F1F1;
+    overflow: hidden;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    border-radius: 20px;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: #363958;
+}
+
+.card-footer-jacket h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FABE4C;
+}
+
+.card-footer-jacket {
+    border: 0;
+    background: white;
+}
+
+.card-jacket {
+    border-radius: 20px;
+}
+
+
+
+
+/*===============================
+    3.0 - Man Jacket Area 
+=================================*/
+.man-jacket {
+    margin-top: 85px;
+}
+
+
+
+
+/*===============================
+    4.0 - Contact Area 
+=================================*/
+.contact-area {
+    margin-top: 115px;
+}
+
+.contact-row {
+    border-radius: 15px;
+}
+
+.contact-cart img {
+    display: block;
+    margin-left: 70px;
+}
+
+.contact-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3E3E3E;
+}
+
