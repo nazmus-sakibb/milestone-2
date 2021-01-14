@@ -34,7 +34,7 @@
                         <img src="images/penguin-fashion.png" alt="Penguin Fashion">
                     </a>
                 </div>
-                <nav class="navbar navbar-expand-lg navbar-light col-md-5">
+                <nav class="navbar navbar-expand-lg navbar-light col-md-5  ps-4">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -45,13 +45,13 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Product</a>
+                                <a class="nav-link" href="#product">Product</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About us</a>
+                                <a class="nav-link" href="#about">About us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact us</a>
+                                <a class="nav-link" href="#contact">Contact us</a>
                             </li>
                         </ul>
                     </div>
@@ -59,15 +59,17 @@
             </div>
 
             <!-- Header Info -->
-            <div class="header-info d-flex align-items-center">
-                <div class="header-text">
-                    <h1 class="text-highlight">Be the Penguins</h1>
-                    <h1>of Winter</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
-                    <a href="#" class="btn button"><i class="fas fa-shopping-cart me-1"></i> BUY NOW</a>
-                </div>
-                <div class="header-image">
-                    <img src="images/header-image.png" alt="Penguin Fashion">
+            <div class="header-info">
+                <div class="row align-items-center">
+                    <div class="header-text col-md-6">
+                        <h1 class="text-highlight">Be the Penguins</h1>
+                        <h1>of Winter</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
+                        <a href="#" class="btn button"><i class="fas fa-shopping-cart me-1"></i> BUY NOW</a>
+                    </div>
+                    <div class="header-image col-md-6">
+                        <img class="img-fluid" src="images/header-image.png" alt="Penguin Fashion">
+                    </div>
                 </div>
             </div>
         </div>
@@ -76,7 +78,7 @@
 
     <main class="container">
         <!-- Woman Jacket Area Start-->
-        <section class="woman-jacket mt-5">
+        <section id="product" class="woman-jacket mt-5">
             <h2>Woman Jacket</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
                 <div class="col">
@@ -200,7 +202,7 @@
         <!-- Man Jacket Area End -->
 
         <!-- Contact Area Start -->
-        <section class="contact-area">
+        <section id="contact" class="contact-area">
             <div class="row">
                 <div class="col-md-5">
                     <div class="row shadow mb-3 p-3 contact-row">
@@ -232,15 +234,41 @@
                     </div>
                 </div>
                 <div class="col-md-7 contact-cart">
-                    <img src="images/cart.png" alt="Penguin Fashion">
+                    <img class="img-fluid d-block" src="images/cart.png" alt="Penguin Fashion">
                 </div>
             </div>
         </section>
+        <!-- Contact Area End -->
     </main>
 
-
-
-    <br><br><br><br>
+    <!-- Footer Area Start -->
+    <footer class="footer-area">
+        <div class="container">
+            <img class="mb-3" src="images/penguin-fashion.png" alt="Penguin Fashion">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Welcome Folks!</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, sapiente voluptas? Nulla
+                        numquam dicta eveniet ex animi debitis nobis repellendus.</p>
+                </div>
+                <div id="about" class="col-md-4">
+                    <h4>About Us</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, sapiente voluptas? Nulla
+                        numquam dicta eveniet ex animi debitis nobis repellendus.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Get In Touch</h4>
+                    <form action="#">
+                        <input class="w-100 p-2 rounded" type="email" placeholder="Enter Your Email">
+                        <br>
+                        <a href="#" class="btn button w-100">SUBMIT</a>
+                    </form>
+                </div>
+            </div>
+            <p class="text-center mt-4">All rights reserved | &copy; 2021</p>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
 
 
 

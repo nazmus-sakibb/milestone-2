@@ -6,23 +6,13 @@ nav a {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    margin: 0 15px;
+    margin-left: 30px;
     display: inline-block;
 }
 
 .header-area {
     background-color: #FFFBF0;
     padding-bottom: 120px;
-}
-
-.logo-area{
-    width: 270px;
-    height: auto;
-}
-
-.logo img {
-    display: inline-block;
-    width: 100%;
 }
 
 /* Header Info */
@@ -39,11 +29,14 @@ h1.text-highlight {
     margin-bottom: 0;
 }
 
-.header-info p {
+p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #3E3E3E;
+}
+
+.header-info p {
     margin-bottom: 20px;
 }
 
@@ -62,10 +55,6 @@ h1.text-highlight {
 .button:hover {
     color: white;
     background: linear-gradient(#86A21B, #A4BC45);
-}
-
-.header-image {
-    margin-left: 100px;
 }
 
 
@@ -111,8 +100,6 @@ h4 {
 }
 
 
-
-
 /*===============================
     3.0 - Man Jacket Area 
 =================================*/
@@ -121,13 +108,11 @@ h4 {
 }
 
 
-
-
 /*===============================
     4.0 - Contact Area 
 =================================*/
 .contact-area {
-    margin-top: 115px;
+    padding: 115px 0 80px;
 }
 
 .contact-row {
@@ -139,10 +124,28 @@ h4 {
     margin-left: 70px;
 }
 
-.contact-text p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #3E3E3E;
+
+
+/*===============================
+    5.0 - Footer Area 
+=================================*/
+.footer-area {
+    background-color: #FFFBF0;
+    padding-top: 60px;
+}
+
+
+
+/* Responsive Css */
+@media (max-width: 850px) {
+    .contact-cart img {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        text-align: center;
+    }
 }
 
